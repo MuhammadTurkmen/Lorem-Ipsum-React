@@ -34,7 +34,7 @@ function App() {
         </p>
       </article>
       {text.map((item, index) => {
-        return <p key={index}></p>
+        return <p key={index}>{item}</p>
       })}
     </section>
   ) 
