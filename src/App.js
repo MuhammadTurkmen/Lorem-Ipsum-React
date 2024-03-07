@@ -3,7 +3,7 @@ import data from './data';
 function App() {
   const [count, setCount] = useState(0)
   const [text, setText] = useState([])
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { 
     e.preventDefault()
     let amount = parseInt(count)
     if(count <= 0) { 
