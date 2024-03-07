@@ -19,7 +19,7 @@ function App() {
           name="amount" 
           id="amount" 
           value={count}
-          onChange={}
+          onChange={(e) => setCount(e.target.value)}
         />
       </form>
     </section>
