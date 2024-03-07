@@ -14,7 +14,7 @@ function App() {
         <label htmlFor="amount">
           paragraphs:
         </label>
-        <input type="number" name="" id="" />
+        <input type="number" name="amount" id="amount" />
       </form>
     </section>
   ) 
