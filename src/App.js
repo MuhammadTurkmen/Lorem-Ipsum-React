@@ -3,8 +3,8 @@ import data from './data';
 function App() {
   const [count, setCount] = useState(0)
   const [text, setText] = useState([])
-  const handleSubmit = () => {
-    
+  const handleSubmit = (e) => {
+    e.preventDefault()
   }
   return (
     <section className='section-center'>
