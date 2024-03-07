@@ -21,7 +21,7 @@ function App() {
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
-        <button type='submit' className='btn'></button>
+        <button type='submit' className='btn'>generate</button>
       </form>
     </section>
   ) 
