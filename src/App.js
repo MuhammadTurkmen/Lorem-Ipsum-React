@@ -33,7 +33,9 @@ function App() {
           Ipsam, ratione.
         </p>
       </article>
-      {text.map((item, index) => {})}
+      {text.map((item, index) => {
+        return <p key={index}></p>
+      })}
     </section>
   ) 
 }
