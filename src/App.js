@@ -19,6 +19,7 @@ function App() {
           name="amount" 
           id="amount" 
           value={count}
+          onChange={}
         />
       </form>
     </section>
