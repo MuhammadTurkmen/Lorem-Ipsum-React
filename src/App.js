@@ -6,7 +6,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     let amount = parseInt(count)
-    setText(data)
+    setText(data.slice(0, amount))
   }
   return (
     <section className='section-center'>
@@ -24,16 +24,6 @@ function App() {
         />
         <button type='submit' className='btn'>generate</button>
       </form>
-      <article className='lorem-text'>
-        <p>Lorem, ipsum dolor sit amet Lorem ipsum dolor sit amet 
-          consectetur adipisicing elit. Aut, repellendus.consectetur adipisicing elit. 
-          Ipsam, ratione.
-        </p>
-        <p>Lorem, ipsum dolor sit amet Lorem ipsum dolor sit amet 
-          consectetur adipisicing elit. Aut, repellendus.consectetur adipisicing elit. 
-          Ipsam, ratione.
-        </p>
-      </article>
       {text.map((item, index) => {
         return <p key={index}>{item}</p>
       })}
