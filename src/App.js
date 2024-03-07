@@ -5,7 +5,7 @@ function App() {
   const [text, setText] = useState([])
   const handleSubmit = (e) => { 
     e.preventDefault()
-    let amount = parseInt(count)
+    let amount = parseInt(count) 
     if(count <= 0) { 
       amount = 1
     }
